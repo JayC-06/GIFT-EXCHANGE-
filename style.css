@@ -1,0 +1,81 @@
+.menu {
+  cursor: pointer;
+  background-color: none;
+  font-size: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-shadow: 5px 5px 15px black;
+  }
+  .menu1 {
+    cursor: pointer;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 5px 5px 15px black;
+    }
+.buttonexpanded1 {
+background-color: black;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 100px;
+padding-left: 100px;
+box-shadow: 2px 2px 5px black;
+border-radius: 5px;
+}
+.buttonexpanded2 {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 5px;
+  }
+  .buttonexpanded3 {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    }
+    .buttonexpanded4 {
+      background-color: black;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 100px;
+      padding-left: 100px;
+      box-shadow: 2px 2px 5px black;
+      border-radius: 5px;
+      }
+.thumbnail {
+  border-radius: 5px;
+}
+.row-column {
+background-color: rgb(255, 255, 255);
+}
+.media-object-section {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px
+}
+.smallbutton{
+  color: white;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+
+}

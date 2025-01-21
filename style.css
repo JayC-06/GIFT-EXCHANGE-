@@ -6,19 +6,22 @@
   border-bottom-left-radius: 5px;
   text-shadow: 5px 5px 15px grey;
   background-color: black;
+  
   }
   .menu1 {
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 30px;
     border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
     text-shadow: 5px 5px 15px grey;
     }
+.row-column {
+  text-align: center;;
+}
+.top-bar {
+  background-color: rgb(0, 170, 255);
+}
 .buttonexpanded {
 background-color: black;
 color: white;
@@ -38,63 +41,7 @@ transition: box-shadow .2s;
 .buttonexpanded:active {
   opacity: 0.5;
 }
-.buttonexpanded {
-  background-color: black;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 100px;
-  padding-left: 100px;
-  border-radius: 5px;
-  transition: opacity .2s;
-  transition: box-shadow .2s;
-  }
-  .buttonexpanded:hover {
-    opacity: 0.8;
-    color: white;
-    box-shadow: 2px 2px 5px rgb(91, 91, 91);
-  }
-  .buttonexpanded:active {
-    opacity: 0.5;
-  }
-  .buttonexpanded {
-    background-color: black;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 100px;
-    padding-left: 100px;
-    border-radius: 5px;
-    transition: opacity .2s;
-    transition: box-shadow .2s;
-    }
-    .buttonexpanded:hover {
-      opacity: 0.8;
-      color: white;
-      box-shadow: 2px 2px 5px rgb(91, 91, 91);
-    }
-    .buttonexpanded:active {
-      opacity: 0.5;
-    }
-    .buttonexpanded {
-      background-color: black;
-      color: white;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-right: 100px;
-      padding-left: 100px;
-      border-radius: 5px;
-      transition: opacity .2s;
-      transition: box-shadow .2s;
-      }
-      .buttonexpanded:hover {
-        opacity: 0.8;
-        color: white;
-        box-shadow: 2px 2px 5px rgb(91, 91, 91);
-      }
-      .buttonexpanded:active {
-        opacity: 0.5;
-      }
+
 .row-column {
 background-color: rgb(255, 255, 255);
 }

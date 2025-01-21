@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thanks But No Thanks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" text="text/css" href="./style.css">
 </head>
@@ -20,7 +21,7 @@
         <ul class="menu">
           <li><a href="#" id="browse">Browse Items</a></li>
           <li><a href="#" id="trade">Start a Trade</a></li>
-          <li><a href="#" data-toggle="shoppingcart-dropdown"><img src="./Assets/images/Shoppingcart.jpg"></a></li>
+          <li><a href="#" data-toggle="shoppingcart-dropdown"><i class="fas fa-shopping-cart"></i></a></li>
           <div class="dropdown-pane" id="shoppingcart-dropdown" data-dropdown data-auto-focus="true">
           <form>
             <div class="grid-container">
@@ -60,25 +61,25 @@
             <img class="thumbnail" src="./Assets/images/chinaplates.avif">
             <h5>China Plates</h5>
             <p>These are in Mint Condition. They had been part of a families generation for years.</p>
-            <a href="#" class="smallbutton">Buy for $300</a>
+            <a href="#" id="product0" class="smallbutton">Buy for $300</a>
           </div>
           <div class="column">
             <img class="thumbnail" src="./Assets/images/dog.jpg">
             <h5>Hand Sketched Dog</h5>
             <p>This hand sketched picture of a dog is one of our latest items from Napoleon Dynamite</p>
-            <a href="#" class="smallbutton">Buy for $50</a>
+            <a href="#" id="product1" class="smallbutton">Buy for $50</a>
         </div>
           <div class="column">
             <img class="thumbnail" src="./Assets/images/golfclubs.jpg">
             <h5>Golf Clubs</h5>
             <p>This were on the set of Happy Gillmore. He never used them but they were extras.</p>
-            <a href="#" class="smallbutton">Buy for $10,000</a>
+            <a href="#" id="product2" class="smallbutton">Buy for $10,000</a>
         </div>
         <div class="column">
               <img class="thumbnail" src="./Assets/images/hairtie.webp">
               <h5>Lebrons Daughters Hair Tie</h5>
               <p>This hair tie fell off Lebron James Daughters hair during a playoff game in miami.</p>
-              <a href="#" class="smallbutton">Buy for $10</a>
+              <a href="#" id="product3" class="smallbutton">Buy for $10</a>
     </div>
     <hr>
     
@@ -86,46 +87,45 @@
           <img class="thumbnail" src="./Assets/images/head-phones.jpeg">
           <h5>Head Phones</h5>
           <p>These are lightly used headphones. These limited edition. </p>
-          <a href="#" class="smallbutton">Buy for $120</a>
+          <a href="#" id="product4" class="smallbutton">Buy for $120</a>
     </div>
         <div class="column">
             <img class="thumbnail" src="./Assets/images/images.jpeg">
             <h5>Socks</h5>
             <p>These socks speak for themselves. They are ugly!</p>
-            <a href="#" class="smallbutton">Buy $50</a>
+            <a href="#" id="product5" class="smallbutton">Buy $50</a>
           </div>
           <div class="column">
           <img class="thumbnail" src="./Assets/images/necklace.jpeg">
               <h5>Necklace</h5>
             <p>This Necklace was given as a gift but it didnt fit the pomeranian.</p>
-            <a href="#" class="smallbutton">Buy $250</a>
+            <a href="#" id="product6" class="smallbutton">Buy $250</a>
         </div>
         <div class="column">
             <img class="thumbnail" src="./Assets/images/remote.webp">
             <h5>Universal Remote Control</h5>
             <p>Just a remote that doesnt work with tube televisons.</p>
-            <a href="#" class="smallbutton">Buy $99</a>
+            <a href="#" id="product7" class="smallbutton">Buy $99</a>
           </div>
          <hr>
-          
           
         <div class="column">
             <img class="thumbnail" src="./Assets/images/teddy-bear.webp">
             <h5>Teddy Bear</h5>
             <p>This cute Teddy bear was given to young girl who is no longer with us. She moved...</p>
-            <a href="#" class="smallbutton">Buy $40</a>
+            <a href="#" id="product8" class="smallbutton">Buy $40</a>
           </div>
         <div class="column">
             <img class="thumbnail" src="./Assets/images/ugly.jpg">
             <h5>Ugly Sweater</h5>
             <p>FREE! FREE! FREE! No need to describe how ugly this sweater is. Help get this off our items page. </p>
-            <a href="#" class="smallbutton">Free</a>
+            <a href="#" id="product9" class="smallbutton">Free</a>
           </div>
         <div class="column">
               <img class="thumbnail" src="./Assets/images/tv.webp">
               <h5>Flat Screen Televison</h5>
               <p>This is a Sharp 42inch Flat screen TV. Owner upgraded to an adult size televison.</p>
-              <a href="#" class="smallbutton">Buy $450</a>
+              <a href="#" id="product10" class="smallbutton">Buy $450</a>
       </div>
     </div>
     <hr/>
@@ -200,6 +200,5 @@
       $(document).foundation();
     </script>
     <script src="./script.js"></script>
-    <script src="./scripttest.js"></script>
   </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thanks But No Thanks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" text="text/css" href="./style.css">
   </head>
@@ -13,14 +14,14 @@
     <div class="top-bar">
       <div class="top-bar-left">
         <ul class="menu">
-          <li class="menu-text" id="home"><a href="#">Thanksbutnothanks</li></a>
+          <h3 class="menu-text" ><a href="#" id="home">ThanksbutnoThanks</a></h3>
         </ul>
       </div> 
       <div class="top-bar-right">
         <ul class="menu">
           <li><a href="#" id="browse">Browse Items</a></li>
           <li><a href="#" id="trade">Start a Trade</a></li>
-          <li><a href="#" data-toggle="shoppingcart-dropdown"><img src="./Assets/images/Shoppingcart.jpg"></a></li>
+          <li><a href="#" data-toggle="shoppingcart-dropdown"><i class="fas fa-shopping-cart"></i></a></li>
           <div class="dropdown-pane" id="shoppingcart-dropdown" data-dropdown data-auto-focus="true">
           <form>
             <div class="grid-container">
@@ -36,41 +37,36 @@
                   </label>
                 </div>
               </div>
+              <button id="checkout" class="smallbutton">Checkout</button>
+            </div>
+              </div>
             </div>
           </form>
         </div>
         </ul>
       </div>
     </div>
-
-    <div><h4 class="row-column" >Your Trash is my Treasure</h4></div>
-    <!-- End Top Bar -->
-
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures"
-      data-orbit>
-      <ul class="orbit-container">
-        <button class="orbit-previous" aria-label="previous"><span
-            class="show-for-sr">Previous Slide</span>&#9664;</button>
-        <button class="orbit-next" aria-label="next"><span
-            class="show-for-sr">Next Slide</span>&#9654;</button>
-        <li class="orbit-slide is-active">
-          <img src="./Assets/images/hands-trading.jpg">
-        </li>
-      </ul>
-    </div>
-  
-    <div class="row-column-text-center">
-      <h2>Our Newest Products</h2>
-      <hr>
-    </div>
-
+    <hr>
+      <div class="row-column">
+        <div class="callout primary">
+            <h3 class="text-center">Your Trash is our Treasure</h3>
+        </div>
+      <div >      
+        <hr>
+        <img src="./Assets/images/hands-trading.jpg" class="row-column">
+      </div>
+    <hr>
+          <h3>Really big special this week on items.</h3>
+        </div>
+      </div>
+    <hr>
     <div id="product" class="row small-up-2 large-up-4">
       <div class="column">
         <img class="thumbnail" src="Assets/images/chinaplates.avif"
           alt="white plates">
         <h5>China Plates</h5>
         <p>$300</p>
-        <a href="#" class="buttonexpanded">Buy</a>
+        <a href="#" class="buttonexpanded" id="browse">Buy</a>
       </div>
       <div class="column">
         <img class="thumbnail" src="Assets/images/dog.jpg" alt="dog photo">
@@ -103,10 +99,10 @@
 
     <hr>
 
-    <div class="row column text-center">
-      <h2>Some Other Neat Products</h2>
-      <hr>
-    </div>
+    <div class="row column">
+      <div class="callout primary">
+        <h3 class="text-center">Some Other Neat products</h3>
+      </div>
 
     <div class="row small-up-2 medium-up-3 large-up-6">
       <div class="column">
@@ -169,5 +165,6 @@
       $(document).foundation();
     </script>
     <script src="./script.js"></script>
+    <script src="./checkout.js"></script>
   </body>
 </html>

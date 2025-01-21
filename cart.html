@@ -14,21 +14,45 @@
   <div class="top-bar">
     <div class="top-bar-left">
       <ul class="menu">
-        <li class="menu-text" id="home"><a href="#">Thanksbutnothanks</li></a>
+        <h3 class="menu-text" ><a href="#" id="home">ThanksbutnoThanks</a></h3>
       </ul>
     </div> 
     <div class="top-bar-right">
       <ul class="menu">
         <li><a href="#" id="browse">Browse Items</a></li>
         <li><a href="#" id="trade">Start a Trade</a></li>
+        <li><a href="#" data-toggle="shoppingcart-dropdown"><i class="fas fa-shopping-cart"></i></a></li>
+        <div class="dropdown-pane" id="shoppingcart-dropdown" data-dropdown data-auto-focus="true">
+        <form>
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-6">
+                <label>Name
+                  <input type="text" placeholder="Name">
+                </label>
+              </div>
+              <div class="cell medium-6">
+                <label>Email
+                  <input type="text" placeholder="Email">
+                </label>
+              </div>
+            </div>
+            <button id="checkout" class="smallbutton">Checkout</button>
+          </div>
+            </div>
+          </div>
+        </form>
+      </div>
       </ul>
     </div>
   </div>
-
-  <header class="menu1">
-    <div class="row column text-center">
+  <header>
       <hr>
-        <h1>Checkout</h1>
+      <div class="row-column">
+        <div class="callout primary">
+            <h2 class="text-center">Checkout</h2>
+        </div>
+      <div >      
         <hr>
     </div>
   </header>
@@ -37,10 +61,10 @@
       <div id="shoppingcart">
       </div>
         <hr >
-          <h2>Total Price</h2>
+          <h3>Total Price</h3>
           <hr>
       </div>
-        <p id = 'price'></p>
+        <p id ="price"></p>
         <a href="#" id="placeorder" class="smallbutton">Place Your Order</a>
         <hr>
         <p id = 'purchaseText'></p>
@@ -48,6 +72,7 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>  $(document).foundation();  </script>
+  <script src="./checkout.js"></script>
   <script src="./script.js"></script>
 </body>
 

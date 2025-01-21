@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Checkout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
   <link rel="stylesheet" text="text/css" href="./style.css">
 </head>
@@ -20,25 +21,6 @@
       <ul class="menu">
         <li><a href="#" id="browse">Browse Items</a></li>
         <li><a href="#" id="trade">Start a Trade</a></li>
-        <li><a href="#" data-toggle="shoppingcart-dropdown"><img src="./Assets/images/Shoppingcart.jpg"></a></li>
-        <div class="dropdown-pane" id="shoppingcart-dropdown" data-dropdown data-auto-focus="true">
-        <form>
-          <div class="grid-container">
-            <div class="grid-x grid-margin-x">
-              <div class="cell medium-6">
-                <label>Name
-                  <input type="text" placeholder="Name">
-                </label>
-              </div>
-              <div class="cell medium-6">
-                <label>Email
-                  <input type="text" placeholder="Email">
-                </label>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
       </ul>
     </div>
   </div>
@@ -59,12 +41,14 @@
           <hr>
       </div>
         <p id = 'price'></p>
-        <a href="#" id="placeorder" class="buttonexpanded1">Place Your Order</a>
+        <a href="#" id="placeorder" class="smallbutton">Place Your Order</a>
         <hr>
         <p id = 'purchaseText'></p>
     </main>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>  $(document).foundation();  </script>
   <script src="./script.js"></script>
-  <script src="./scripttest.js"></script>
 </body>
 
 <footer>

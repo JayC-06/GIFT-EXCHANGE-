@@ -1,30 +1,3 @@
-// Gift exchange javascript
-// redirect function for browse items page
-function redirectToBrowseItems() {
-    window.location.href = 'item.html';
-};
-
-document.getElementById('browse').addEventListener('click', redirectToBrowseItems);
-
-// redirect function for start a trade page
-function redirectToStartTrade() {
-    window.location.href = 'trade.html';
-};
-
-document.getElementById('trade').addEventListener('click', redirectToStartTrade);
-
-// redirect function for shopping cart page
-function redirectToShoppingCart() {
-    window.location.href = 'cart.html'
-};
-
-document.getElementById('cart').addEventListener('click', redirectToShoppingCart)
-
-function redirectToHome() {
-    window.location.href = 'index.html';
-};
-
-document.getElementById('home').addEventListener('click', redirectToHome);
 
 // functionality for shopping cart html
 const productID = ['product0', 'product1', 'product2', 'product3', 'product4', 'product5', 'product6', 'product7', 'product8', 'product9', 'product10'];
@@ -43,7 +16,7 @@ const products = [
 { name:"Tv", price: 450 }
 ];
 
-const buttons = document.getElementsByClassName("button expanded");
+const buttons = document.getElementsByClassName("smallbutton");
 
 const getProduct = function(event){
     event.preventDefault();
@@ -126,3 +99,31 @@ function submitCart(){
     submitCart();
 }
 });
+
+// Gift exchange javascript
+// redirect function for browse items page
+function redirectToBrowseItems() {
+    window.location.href = 'item.html';
+};
+
+document.getElementById('browse').addEventListener('click', redirectToBrowseItems);
+
+// redirect function for start a trade page
+function redirectToStartTrade() {
+    window.location.href = 'trade.html';
+};
+
+document.getElementById('trade').addEventListener('click', redirectToStartTrade);
+
+// redirect function for shopping cart page
+function redirectToShoppingCart() {
+    window.location.href = 'cart.html'
+};
+
+document.getElementById('shoppingcart').addEventListener('click', redirectToShoppingCart)
+
+function redirectToHome() {
+    window.location.href = 'index.html';
+};
+
+document.getElementById('home').addEventListener('click', redirectToHome);

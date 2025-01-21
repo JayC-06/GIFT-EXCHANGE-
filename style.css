@@ -17,7 +17,8 @@
     text-shadow: 5px 5px 15px grey;
     }
 .row-column {
-  text-align: center;;
+  text-align: center;
+  flex-direction: column;
 }
 .buttonexpanded {
 background-color: black;
@@ -84,6 +85,3 @@ opacity: 0.5;
   padding-left: 4px;
   padding-right: 4px;
 }
-
-
-

@@ -46,7 +46,7 @@ SO THAT i can view what is in my cart
 
 ## Deployment
 
-🚧 The website is not yet deployed. Deployment link will be added once available.
+🚧 https://jayc-06.github.io/GIFT-EXCHANGE-/index.html
 
 ## Built With
 
@@ -71,6 +71,3 @@ VS Code: For developing and managing HTML, CSS, and JavaScript code.
 ## License
 
 License details to be added later.
-
-# link
-![Link to Deployed Application] https://jayc-06.github.io/GIFT-EXCHANGE-/index.html

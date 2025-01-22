@@ -14,6 +14,32 @@ Purchase Options: Buy items directly from other users if you don't want to trade
 
 User-Friendly Interface: Simple and intuitive design for smooth navigation.
 
+ # User Story
+
+AS A gift recipient
+
+I WANT to be able to replace a gift I have received but do not want
+
+SO THAT I can get a gift that I do want
+
+AS A gift recipient
+
+I WANT to be able to add items to my cart
+
+SO THAT I can make a purchase on said items in cart
+
+AS A gift recipient
+
+I WANT to be able to trade on other user’s items
+
+SO THAT I can trade for items i want 
+
+WHEN I select cart
+
+I WANT to be prompted to enter my information
+
+SO THAT i can view what is in my cart
+
 ## Preview
 
 ![App Screenshot](./Assets/images/README%20Screenshot.png)
@@ -45,3 +71,6 @@ VS Code: For developing and managing HTML, CSS, and JavaScript code.
 ## License
 
 License details to be added later.
+
+# link
+![Link to Deployed Application] https://jayc-06.github.io/GIFT-EXCHANGE-/index.html
